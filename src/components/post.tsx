@@ -9,7 +9,7 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ setHomeDetails }) => {
   return (
-    <div className="post-container w-100 mt-3 mb-3 border-0 border-gray-300 rounded-lg p-4 bg-white shadow-md">
+    <div className="post-container w-100 mt-3 mb-3 border-0 border-gray-300 rounded-lg p-4 bg-white">
       <div className="flex items-center justify-between">
         <h2 className="post-title font-semibold text-sm flex items-center gap-2">
           <img

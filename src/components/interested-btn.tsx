@@ -1,5 +1,8 @@
+interface InterestedBtnProps {
+  setHomeDetails: (value: boolean) => void;
+}
 
-const InterestedBtn = ({ setHomeDetails }) => {
+const InterestedBtn: React.FC<InterestedBtnProps> = ({ setHomeDetails }) => {
     return (
         <button className=" mt-2 px-5 py-2 rounded-lg bg-blue-600 text-white font-semibold 
         flex items-center justify-center gap-2

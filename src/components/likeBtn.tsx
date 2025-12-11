@@ -8,8 +8,8 @@ const LikeBtn = () => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            strokeWidth="2"
-            className="w-6 h-6 text-gray-700 hover:text-red-500 transition"
+            strokeWidth="1.5"
+            className="w-8 h-8 text-gray-700 hover:text-red-500 transition"
             >
             <path
                 strokeLinecap="round"

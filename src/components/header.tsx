@@ -2,8 +2,8 @@
 
     const Header = () => {
     return (
-        <div className='relative mb-18 z-50'>
-        <nav className="fixed top-0 w-100 justify-center bg-white text-black shadow-md lg:pe-4 border-b border-gray-200">
+        <div className='relative z-50'>
+        <nav className="top-0 w-100 justify-center bg-white text-black lg:pe-4 border-gray-200">
         <div className="mx-4 md:mx-auto md:max-w-6xl flex items-center justify-between h-16">
             
             <img src={Logo} alt="Logo" className="h-auto w-30 object-contain" />
@@ -16,8 +16,8 @@
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                strokeWidth="2"
-                className="w-6 h-6 text-black"
+                strokeWidth="1.5"
+                className="w-8 h-8 text-black"
                 >
                 <path
                     strokeLinecap="round"

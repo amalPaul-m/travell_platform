@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div className="container-body overflow-x-hidden w-full">
+    <div className="container-body overflow-x-hidden w-100">
     <BrowserRouter>
       <Routes>
           <Route path='/' element={<Home />} />

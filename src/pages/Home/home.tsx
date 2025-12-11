@@ -12,7 +12,7 @@ const Home = () => {
     <>
         <Header />
         {homeDetails ? (
-          <HomeDetails />
+          <HomeDetails onBack={()=>setHomeDetails(false)}/>
         ):(
           <>
           <Post setHomeDetails={ setHomeDetails }/>
