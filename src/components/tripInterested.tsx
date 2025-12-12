@@ -9,3 +9,4 @@ const TripInterested: React.FC = () => {
 };
 
 export default TripInterested;
+
